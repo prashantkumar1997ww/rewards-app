@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="mt-4"
+  >
+    <div
+      class="fade alert alert-danger show"
+      role="alert"
+    >
+      Failed to fetch data
+    </div>
+  </div>
+</DocumentFragment>
+`;

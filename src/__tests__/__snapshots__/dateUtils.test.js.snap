@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getMonthYearKey matches snapshot 1`] = `
+Object {
+  "key": "2024-2",
+  "month": 1,
+  "year": 2024,
+}
+`;

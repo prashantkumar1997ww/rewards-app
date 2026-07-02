@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetchTransactions API matches snapshot for success response 1`] = `
+Array [
+  Object {
+    "amount": 100,
+    "id": 1,
+  },
+]
+`;

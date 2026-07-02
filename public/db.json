@@ -1,0 +1,904 @@
+{
+  "mockTransactions": [
+    {
+      "transactionId": 1,
+      "customerId": 101,
+      "firstname": "John",
+      "lastname": "Doe",
+      "productPurchased": "Wireless Mouse",
+      "price": 49.99,
+      "purchaseDate": "2026-04-12"
+    },
+    {
+      "transactionId": 2,
+      "customerId": 102,
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "productPurchased": "Bluetooth Headphones",
+      "price": 129.50,
+      "purchaseDate": "2026-03-28"
+    },
+    {
+      "transactionId": 3,
+      "customerId": 103,
+      "firstname": "Sam",
+      "lastname": "Wilson",
+      "productPurchased": "Laptop Stand",
+      "price": 39.00,
+      "purchaseDate": "2026-02-18"
+    },
+    {
+      "transactionId": 4,
+      "customerId": 104,
+      "firstname": "Alex",
+      "lastname": "Johnson",
+      "productPurchased": "Mechanical Keyboard",
+      "price": 159.29,
+      "purchaseDate": "2026-05-01"
+    },
+    {
+      "transactionId": 5,
+      "customerId": 105,
+      "firstname": "Chris",
+      "lastname": "Evans",
+      "productPurchased": "USB-C Hub",
+      "price": 79.45,
+      "purchaseDate": "2026-04-22"
+    },
+    {
+      "transactionId": 6,
+      "customerId": 106,
+      "firstname": "Emma",
+      "lastname": "Watson",
+      "productPurchased": "Smart Watch",
+      "price": 249.19,
+      "purchaseDate": "2026-03-15"
+    },
+    {
+      "transactionId": 7,
+      "customerId": 107,
+      "firstname": "Robert",
+      "lastname": "Brown",
+      "productPurchased": "Gaming Chair",
+      "price": 299.47,
+      "purchaseDate": "2026-02-25"
+    },
+    {
+      "transactionId": 8,
+      "customerId": 108,
+      "firstname": "Olivia",
+      "lastname": "Davis",
+      "productPurchased": "Portable SSD",
+      "price": 119.55,
+      "purchaseDate": "2026-04-10"
+    },
+    {
+      "transactionId": 9,
+      "customerId": 109,
+      "firstname": "Liam",
+      "lastname": "Wilson",
+      "productPurchased": "4K Monitor",
+      "price": 399.78,
+      "purchaseDate": "2026-03-05"
+    },
+    {
+      "transactionId": 10,
+      "customerId": 110,
+      "firstname": "Sophia",
+      "lastname": "Martinez",
+      "productPurchased": "Webcam HD",
+      "price": 89.98,
+      "purchaseDate": "2026-02-12"
+    },
+    {
+      "transactionId": 11,
+      "customerId": 101,
+      "firstname": "John",
+      "lastname": "Doe",
+      "productPurchased": "Noise Cancelling Earbuds",
+      "price": 149.37,
+      "purchaseDate": "2026-05-03"
+    },
+    {
+      "transactionId": 12,
+      "customerId": 102,
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "productPurchased": "Tablet 10-inch",
+      "price": 329.00,
+      "purchaseDate": "2026-04-18"
+    },
+    {
+      "transactionId": 13,
+      "customerId": 103,
+      "firstname": "Sam",
+      "lastname": "Wilson",
+      "productPurchased": "Wireless Charger",
+      "price": 29.92,
+      "purchaseDate": "2026-03-21"
+    },
+    {
+      "transactionId": 14,
+      "customerId": 104,
+      "firstname": "Alex",
+      "lastname": "Johnson",
+      "productPurchased": "Smartphone Case",
+      "price": 19.81,
+      "purchaseDate": "2026-02-08"
+    },
+    {
+      "transactionId": 15,
+      "customerId": 105,
+      "firstname": "Chris",
+      "lastname": "Evans",
+      "productPurchased": "Laptop Backpack",
+      "price": 59.69,
+      "purchaseDate": "2025-11-12"
+    },
+    {
+      "transactionId": 16,
+      "customerId": 106,
+      "firstname": "Emma",
+      "lastname": "Watson",
+      "productPurchased": "External Hard Drive",
+      "price": 109.09,
+      "purchaseDate": "2025-09-25"
+    },
+    {
+      "transactionId": 17,
+      "customerId": 107,
+      "firstname": "Robert",
+      "lastname": "Brown",
+      "productPurchased": "Desk Lamp",
+      "price": 34.50,
+      "purchaseDate": "2025-08-17"
+    },
+    {
+      "transactionId": 18,
+      "customerId": 108,
+      "firstname": "Olivia",
+      "lastname": "Davis",
+      "productPurchased": "Office Chair",
+      "price": 189.88,
+      "purchaseDate": "2025-07-30"
+    },
+    {
+      "transactionId": 19,
+      "customerId": 109,
+      "firstname": "Liam",
+      "lastname": "Wilson",
+      "productPurchased": "Bluetooth Speaker",
+      "price": 99.11,
+      "purchaseDate": "2024-12-05"
+    },
+    {
+      "transactionId": 20,
+      "customerId": 110,
+      "firstname": "Sophia",
+      "lastname": "Martinez",
+      "productPurchased": "Fitness Tracker",
+      "price": 79.27,
+      "purchaseDate": "2024-10-11"
+    },
+    {
+      "transactionId": 21,
+      "customerId": 111,
+      "firstname": "Noah",
+      "lastname": "Taylor",
+      "productPurchased": "Smart TV 55 inch",
+      "price": 699.75,
+      "purchaseDate": "2024-06-21"
+    },
+    {
+      "transactionId": 22,
+      "customerId": 112,
+      "firstname": "Ava",
+      "lastname": "Anderson",
+      "productPurchased": "Air Purifier",
+      "price": 199.47,
+      "purchaseDate": "2024-04-15"
+    },
+    {
+      "transactionId": 23,
+      "customerId": 113,
+      "firstname": "James",
+      "lastname": "Thomas",
+      "productPurchased": "Electric Kettle",
+      "price": 49.82,
+      "purchaseDate": "2023-12-09"
+    },
+    {
+      "transactionId": 24,
+      "customerId": 114,
+      "firstname": "Isabella",
+      "lastname": "Jackson",
+      "productPurchased": "Coffee Maker",
+      "price": 89.43,
+      "purchaseDate": "2023-08-01"
+    },
+    {
+      "transactionId": 25,
+      "customerId": 115,
+      "firstname": "William",
+      "lastname": "White",
+      "productPurchased": "Vacuum Cleaner",
+      "price": 149.67,
+      "purchaseDate": "2023-06-20"
+    },
+    {
+      "transactionId": 26,
+      "customerId": 116,
+      "firstname": "Mia",
+      "lastname": "Harris",
+      "productPurchased": "Blender",
+      "price": 69.54,
+      "purchaseDate": "2022-11-11"
+    },
+    {
+      "transactionId": 27,
+      "customerId": 117,
+      "firstname": "Benjamin",
+      "lastname": "Martin",
+      "productPurchased": "Toaster",
+      "price": 39.76,
+      "purchaseDate": "2022-09-05"
+    },
+    {
+      "transactionId": 28,
+      "customerId": 118,
+      "firstname": "Charlotte",
+      "lastname": "Lee",
+      "productPurchased": "Microwave Oven",
+      "price": 159.60,
+      "purchaseDate": "2022-07-23"
+    },
+    {
+      "transactionId": 29,
+      "customerId": 119,
+      "firstname": "Lucas",
+      "lastname": "Perez",
+      "productPurchased": "Refrigerator",
+      "price": 899.20,
+      "purchaseDate": "2022-05-18"
+    },
+    {
+      "transactionId": 30,
+      "customerId": 120,
+      "firstname": "Amelia",
+      "lastname": "Clark",
+      "productPurchased": "Dishwasher",
+      "price": 499.39,
+      "purchaseDate": "2022-03-10"
+    },
+    {
+      "transactionId": 31,
+      "customerId": 101,
+      "firstname": "John",
+      "lastname": "Doe",
+      "productPurchased": "Wireless Keyboard",
+      "price": 59.63,
+      "purchaseDate": "2026-04-05"
+    },
+    {
+      "transactionId": 32,
+      "customerId": 102,
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "productPurchased": "Gaming Mouse",
+      "price": 79.57,
+      "purchaseDate": "2026-03-30"
+    },
+    {
+      "transactionId": 33,
+      "customerId": 103,
+      "firstname": "Sam",
+      "lastname": "Wilson",
+      "productPurchased": "Monitor Stand",
+      "price": 45.00,
+      "purchaseDate": "2026-02-22"
+    },
+    {
+      "transactionId": 34,
+      "customerId": 104,
+      "firstname": "Alex",
+      "lastname": "Johnson",
+      "productPurchased": "HDMI Cable",
+      "price": 14.72,
+      "purchaseDate": "2026-05-02"
+    },
+    {
+      "transactionId": 35,
+      "customerId": 105,
+      "firstname": "Chris",
+      "lastname": "Evans",
+      "productPurchased": "Router WiFi 6",
+      "price": 129.55,
+      "purchaseDate": "2026-04-20"
+    },
+    {
+      "transactionId": 36,
+      "customerId": 106,
+      "firstname": "Emma",
+      "lastname": "Watson",
+      "productPurchased": "Graphics Tablet",
+      "price": 219.38,
+      "purchaseDate": "2026-03-18"
+    },
+    {
+      "transactionId": 37,
+      "customerId": 107,
+      "firstname": "Robert",
+      "lastname": "Brown",
+      "productPurchased": "VR Headset",
+      "price": 399.89,
+      "purchaseDate": "2026-02-26"
+    },
+    {
+      "transactionId": 38,
+      "customerId": 108,
+      "firstname": "Olivia",
+      "lastname": "Davis",
+      "productPurchased": "Flash Drive 128GB",
+      "price": 24.66,
+      "purchaseDate": "2026-04-14"
+    },
+    {
+      "transactionId": 39,
+      "customerId": 109,
+      "firstname": "Liam",
+      "lastname": "Wilson",
+      "productPurchased": "Curved Monitor",
+      "price": 349.11,
+      "purchaseDate": "2026-03-07"
+    },
+    {
+      "transactionId": 40,
+      "customerId": 110,
+      "firstname": "Sophia",
+      "lastname": "Martinez",
+      "productPurchased": "Ring Light",
+      "price": 59.29,
+      "purchaseDate": "2026-02-14"
+    },
+    {
+      "transactionId": 41,
+      "customerId": 111,
+      "firstname": "Noah",
+      "lastname": "Taylor",
+      "productPurchased": "Smart Bulb",
+      "price": 19.48,
+      "purchaseDate": "2025-12-12"
+    },
+    {
+      "transactionId": 42,
+      "customerId": 112,
+      "firstname": "Ava",
+      "lastname": "Anderson",
+      "productPurchased": "Security Camera",
+      "price": 149.28,
+      "purchaseDate": "2025-10-01"
+    },
+    {
+      "transactionId": 43,
+      "customerId": 113,
+      "firstname": "James",
+      "lastname": "Thomas",
+      "productPurchased": "Door Lock Smart",
+      "price": 179.35,
+      "purchaseDate": "2025-08-25"
+    },
+    {
+      "transactionId": 44,
+      "customerId": 114,
+      "firstname": "Isabella",
+      "lastname": "Jackson",
+      "productPurchased": "Ceiling Fan",
+      "price": 99.45,
+      "purchaseDate": "2025-07-19"
+    },
+    {
+      "transactionId": 45,
+      "customerId": 115,
+      "firstname": "William",
+      "lastname": "White",
+      "productPurchased": "Water Heater",
+      "price": 299.93,
+      "purchaseDate": "2025-05-30"
+    },
+    {
+      "transactionId": 46,
+      "customerId": 116,
+      "firstname": "Mia",
+      "lastname": "Harris",
+      "productPurchased": "Air Conditioner",
+      "price": 599.66,
+      "purchaseDate": "2024-11-15"
+    },
+    {
+      "transactionId": 47,
+      "customerId": 117,
+      "firstname": "Benjamin",
+      "lastname": "Martin",
+      "productPurchased": "Washing Machine",
+      "price": 799.55,
+      "purchaseDate": "2024-09-10"
+    },
+    {
+      "transactionId": 48,
+      "customerId": 118,
+      "firstname": "Charlotte",
+      "lastname": "Lee",
+      "productPurchased": "Dryer Machine",
+      "price": 699.41,
+      "purchaseDate": "2024-07-05"
+    },
+    {
+      "transactionId": 49,
+      "customerId": 119,
+      "firstname": "Lucas",
+      "lastname": "Perez",
+      "productPurchased": "Iron Box",
+      "price": 39.86,
+      "purchaseDate": "2024-05-02"
+    },
+    {
+      "transactionId": 50,
+      "customerId": 120,
+      "firstname": "Amelia",
+      "lastname": "Clark",
+      "productPurchased": "Hair Dryer",
+      "price": 49.05,
+      "purchaseDate": "2024-03-11"
+    },
+    {
+      "transactionId": 51,
+      "customerId": 101,
+      "firstname": "John",
+      "lastname": "Doe",
+      "productPurchased": "Tripod Stand",
+      "price": 34.77,
+      "purchaseDate": "2026-04-08"
+    },
+    {
+      "transactionId": 52,
+      "customerId": 102,
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "productPurchased": "Camera Lens",
+      "price": 499.37,
+      "purchaseDate": "2026-03-26"
+    },
+    {
+      "transactionId": 53,
+      "customerId": 103,
+      "firstname": "Sam",
+      "lastname": "Wilson",
+      "productPurchased": "DSLR Camera",
+      "price": 899.18,
+      "purchaseDate": "2026-02-20"
+    },
+    {
+      "transactionId": 54,
+      "customerId": 104,
+      "firstname": "Alex",
+      "lastname": "Johnson",
+      "productPurchased": "GoPro Camera",
+      "price": 299.35,
+      "purchaseDate": "2026-05-04"
+    },
+    {
+      "transactionId": 55,
+      "customerId": 105,
+      "firstname": "Chris",
+      "lastname": "Evans",
+      "productPurchased": "Drone Camera",
+      "price": 799.25,
+      "purchaseDate": "2026-04-21"
+    },
+    {
+      "transactionId": 56,
+      "customerId": 106,
+      "firstname": "Emma",
+      "lastname": "Watson",
+      "productPurchased": "Projector",
+      "price": 349.32,
+      "purchaseDate": "2026-03-19"
+    },
+    {
+      "transactionId": 57,
+      "customerId": 107,
+      "firstname": "Robert",
+      "lastname": "Brown",
+      "productPurchased": "Screen Projector",
+      "price": 129.43,
+      "purchaseDate": "2026-02-27"
+    },
+    {
+      "transactionId": 58,
+      "customerId": 108,
+      "firstname": "Olivia",
+      "lastname": "Davis",
+      "productPurchased": "Power Bank",
+      "price": 39.19,
+      "purchaseDate": "2026-04-11"
+    },
+    {
+      "transactionId": 59,
+      "customerId": 109,
+      "firstname": "Liam",
+      "lastname": "Wilson",
+      "productPurchased": "Charging Cable",
+      "price": 12.42,
+      "purchaseDate": "2026-03-09"
+    },
+    {
+      "transactionId": 60,
+      "customerId": 110,
+      "firstname": "Sophia",
+      "lastname": "Martinez",
+      "productPurchased": "Extension Board",
+      "price": 24.51,
+      "purchaseDate": "2026-02-16"
+    },
+    {
+      "transactionId": 61,
+      "customerId": 111,
+      "firstname": "Noah",
+      "lastname": "Taylor",
+      "productPurchased": "Electric Scooter",
+      "price": 499.84,
+      "purchaseDate": "2025-12-01"
+    },
+    {
+      "transactionId": 62,
+      "customerId": 112,
+      "firstname": "Ava",
+      "lastname": "Anderson",
+      "productPurchased": "Cycle",
+      "price": 299.28,
+      "purchaseDate": "2025-10-15"
+    },
+    {
+      "transactionId": 63,
+      "customerId": 113,
+      "firstname": "James",
+      "lastname": "Thomas",
+      "productPurchased": "Helmet",
+      "price": 49.93,
+      "purchaseDate": "2025-08-30"
+    },
+    {
+      "transactionId": 64,
+      "customerId": 114,
+      "firstname": "Isabella",
+      "lastname": "Jackson",
+      "productPurchased": "Car Vacuum",
+      "price": 59.52,
+      "purchaseDate": "2025-07-10"
+    },
+    {
+      "transactionId": 65,
+      "customerId": 115,
+      "firstname": "William",
+      "lastname": "White",
+      "productPurchased": "Dash Camera",
+      "price": 149.44,
+      "purchaseDate": "2025-06-25"
+    },
+    {
+      "transactionId": 66,
+      "customerId": 116,
+      "firstname": "Mia",
+      "lastname": "Harris",
+      "productPurchased": "Car Charger",
+      "price": 19.32,
+      "purchaseDate": "2024-12-20"
+    },
+    {
+      "transactionId": 67,
+      "customerId": 117,
+      "firstname": "Benjamin",
+      "lastname": "Martin",
+      "productPurchased": "GPS Navigator",
+      "price": 199.20,
+      "purchaseDate": "2024-10-05"
+    },
+    {
+      "transactionId": 68,
+      "customerId": 118,
+      "firstname": "Charlotte",
+      "lastname": "Lee",
+      "productPurchased": "Tyre Inflator",
+      "price": 79.90,
+      "purchaseDate": "2024-08-14"
+    },
+    {
+      "transactionId": 69,
+      "customerId": 119,
+      "firstname": "Lucas",
+      "lastname": "Perez",
+      "productPurchased": "Car Cover",
+      "price": 59.12,
+      "purchaseDate": "2024-06-01"
+    },
+    {
+      "transactionId": 70,
+      "customerId": 120,
+      "firstname": "Amelia",
+      "lastname": "Clark",
+      "productPurchased": "Seat Cushion",
+      "price": 29.27,
+      "purchaseDate": "2024-04-20"
+    },
+    {
+      "transactionId": 71,
+      "customerId": 101,
+      "firstname": "John",
+      "lastname": "Doe",
+      "productPurchased": "Notebook",
+      "price": 9.95,
+      "purchaseDate": "2026-04-06"
+    },
+    {
+      "transactionId": 72,
+      "customerId": 102,
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "productPurchased": "Pen Set",
+      "price": 14.48,
+      "purchaseDate": "2026-03-22"
+    },
+    {
+      "transactionId": 73,
+      "customerId": 103,
+      "firstname": "Sam",
+      "lastname": "Wilson",
+      "productPurchased": "Office File",
+      "price": 7.50,
+      "purchaseDate": "2026-02-24"
+    },
+    {
+      "transactionId": 74,
+      "customerId": 104,
+      "firstname": "Alex",
+      "lastname": "Johnson",
+      "productPurchased": "Stapler",
+      "price": 12.49,
+      "purchaseDate": "2026-05-05"
+    },
+    {
+      "transactionId": 75,
+      "customerId": 105,
+      "firstname": "Chris",
+      "lastname": "Evans",
+      "productPurchased": "Paper Ream",
+      "price": 24.69,
+      "purchaseDate": "2026-04-23"
+    },
+    {
+      "transactionId": 76,
+      "customerId": 106,
+      "firstname": "Emma",
+      "lastname": "Watson",
+      "productPurchased": "Printer",
+      "price": 199.32,
+      "purchaseDate": "2026-03-12"
+    },
+    {
+      "transactionId": 77,
+      "customerId": 107,
+      "firstname": "Robert",
+      "lastname": "Brown",
+      "productPurchased": "Scanner",
+      "price": 149.41,
+      "purchaseDate": "2026-02-19"
+    },
+    {
+      "transactionId": 78,
+      "customerId": 108,
+      "firstname": "Olivia",
+      "lastname": "Davis",
+      "productPurchased": "Ink Cartridge",
+      "price": 39.12,
+      "purchaseDate": "2026-04-09"
+    },
+    {
+      "transactionId": 79,
+      "customerId": 109,
+      "firstname": "Liam",
+      "lastname": "Wilson",
+      "productPurchased": "Whiteboard",
+      "price": 59.55,
+      "purchaseDate": "2026-03-11"
+    },
+    {
+      "transactionId": 80,
+      "customerId": 110,
+      "firstname": "Sophia",
+      "lastname": "Martinez",
+      "productPurchased": "Marker Set",
+      "price": 19.72,
+      "purchaseDate": "2026-02-17"
+    },
+    {
+      "transactionId": 81,
+      "customerId": 111,
+      "firstname": "Noah",
+      "lastname": "Taylor",
+      "productPurchased": "Bed Sheet",
+      "price": 49.66,
+      "purchaseDate": "2025-12-18"
+    },
+    {
+      "transactionId": 82,
+      "customerId": 112,
+      "firstname": "Ava",
+      "lastname": "Anderson",
+      "productPurchased": "Pillow Set",
+      "price": 39.85,
+      "purchaseDate": "2025-10-08"
+    },
+    {
+      "transactionId": 83,
+      "customerId": 113,
+      "firstname": "James",
+      "lastname": "Thomas",
+      "productPurchased": "Curtains",
+      "price": 79.25,
+      "purchaseDate": "2025-08-20"
+    },
+    {
+      "transactionId": 84,
+      "customerId": 114,
+      "firstname": "Isabella",
+      "lastname": "Jackson",
+      "productPurchased": "Carpet",
+      "price": 129.07,
+      "purchaseDate": "2025-07-01"
+    },
+    {
+      "transactionId": 85,
+      "customerId": 115,
+      "firstname": "William",
+      "lastname": "White",
+      "productPurchased": "Sofa Cover",
+      "price": 99.63,
+      "purchaseDate": "2025-06-10"
+    },
+    {
+      "transactionId": 86,
+      "customerId": 116,
+      "firstname": "Mia",
+      "lastname": "Harris",
+      "productPurchased": "Wall Clock",
+      "price": 29.48,
+      "purchaseDate": "2024-12-25"
+    },
+    {
+      "transactionId": 87,
+      "customerId": 117,
+      "firstname": "Benjamin",
+      "lastname": "Martin",
+      "productPurchased": "Table Lamp",
+      "price": 44.83,
+      "purchaseDate": "2024-10-18"
+    },
+    {
+      "transactionId": 88,
+      "customerId": 118,
+      "firstname": "Charlotte",
+      "lastname": "Lee",
+      "productPurchased": "Floor Lamp",
+      "price": 89.55,
+      "purchaseDate": "2024-08-30"
+    },
+    {
+      "transactionId": 89,
+      "customerId": 119,
+      "firstname": "Lucas",
+      "lastname": "Perez",
+      "productPurchased": "Mirror",
+      "price": 69.35,
+      "purchaseDate": "2024-06-15"
+    },
+    {
+      "transactionId": 90,
+      "customerId": 120,
+      "firstname": "Amelia",
+      "lastname": "Clark",
+      "productPurchased": "Bookshelf",
+      "price": 149.16,
+      "purchaseDate": "2024-04-05"
+    },
+    {
+      "transactionId": 91,
+      "customerId": 101,
+      "firstname": "John",
+      "lastname": "Doe",
+      "productPurchased": "Cookware Set",
+      "price": 199.44,
+      "purchaseDate": "2026-04-07"
+    },
+    {
+      "transactionId": 92,
+      "customerId": 102,
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "productPurchased": "Frying Pan",
+      "price": 49.89,
+      "purchaseDate": "2026-03-23"
+    },
+    {
+      "transactionId": 93,
+      "customerId": 103,
+      "firstname": "Sam",
+      "lastname": "Wilson",
+      "productPurchased": "Knife Set",
+      "price": 89.39,
+      "purchaseDate": "2026-02-21"
+    },
+    {
+      "transactionId": 94,
+      "customerId": 104,
+      "firstname": "Alex",
+      "lastname": "Johnson",
+      "productPurchased": "Dinner Set",
+      "price": 129.83,
+      "purchaseDate": "2026-05-06"
+    },
+    {
+      "transactionId": 95,
+      "customerId": 105,
+      "firstname": "Chris",
+      "lastname": "Evans",
+      "productPurchased": "Water Bottle",
+      "price": 19.78,
+      "purchaseDate": "2026-04-24"
+    },
+    {
+      "transactionId": 96,
+      "customerId": 106,
+      "firstname": "Emma",
+      "lastname": "Watson",
+      "productPurchased": "Lunch Box",
+      "price": 24.67,
+      "purchaseDate": "2026-03-14"
+    },
+    {
+      "transactionId": 97,
+      "customerId": 107,
+      "firstname": "Robert",
+      "lastname": "Brown",
+      "productPurchased": "Storage Container",
+      "price": 34.55,
+      "purchaseDate": "2026-02-23"
+    },
+    {
+      "transactionId": 98,
+      "customerId": 108,
+      "firstname": "Olivia",
+      "lastname": "Davis",
+      "productPurchased": "Spice Rack",
+      "price": 39.45,
+      "purchaseDate": "2026-04-13"
+    },
+    {
+      "transactionId": 99,
+      "customerId": 109,
+      "firstname": "Liam",
+      "lastname": "Wilson",
+      "productPurchased": "Serving Tray",
+      "price": 29.34,
+      "purchaseDate": "2026-03-08"
+    },
+    {
+      "transactionId": 100,
+      "customerId": 110,
+      "firstname": "Sophia",
+      "lastname": "Martinez",
+      "productPurchased": "Glass Set",
+      "price": 49.77,
+      "purchaseDate": "2026-02-15"
+    }
+  ]
+}

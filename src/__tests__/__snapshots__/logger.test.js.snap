@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`logger utility matches snapshot 1`] = `
+Array [
+  Array [
+    "Snapshot Error",
+    Object {
+      "test": true,
+    },
+  ],
+]
+`;
