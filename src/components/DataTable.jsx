@@ -13,6 +13,7 @@ function DataTable({ inputId, columns, data }) {
   const [search, setSearch] = useState("");
   const [sortKey, setSortKey] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
+  const [sortOrder, setSortOrder] = useState("asc");
 
   // We use useMemo to optimize the filtering and sorting of data based on search and sortKey.
   const searchText = search.toLowerCase();
@@ -25,15 +26,15 @@ function DataTable({ inputId, columns, data }) {
     if (!sortKey) {
       return filtered;
     }
-    return filtered.sort((a, b) => {
+    return [...filtered].sort((a, b) => {
       const aValue = a[sortKey];
       const bValue = b[sortKey];
 
-      if (aValue < bValue) return -1;
-      if (aValue > bValue) return 1;
+      if (aValue < bValue) return sortOrder === "asc" ? -1 : 1;
+      if (aValue > bValue) return sortOrder === "asc" ? 1 : -1;
       return 0;
     });
-  }, [data, searchText, sortKey]);
+  }, [data, searchText, sortKey, sortOrder]);
 
   // to implement the pagination, we use offset based on the current page and items per page
   // The offset is calculated as (currentPage - 1) * ITEMS_PER_PAGE,
@@ -127,7 +128,14 @@ function DataTable({ inputId, columns, data }) {
         <thead>
           <tr>
             {columns.map((col, index) => (
-              <th key={Number(index)} onClick={() => setSortKey(col.key)}>
+              <th key={Number(index)} onClick={() => {
+                if (sortKey === col.key) {
+                  setSortOrder(sortOrder === "asc" ? "desc" : "asc");
+                } else {
+                  setSortKey(col.key);
+                  setSortOrder("asc");
+                }
+              }}>
                 {col.label}
               </th>
             ))}

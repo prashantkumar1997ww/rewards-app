@@ -53,14 +53,14 @@ function App() {
   const last3MonthsData = useMemo(() => {
     if (!tableData.length) return [];
 
-    const latestDate = new Date(
-      Math.max(
-        ...tableData.map((item) => new Date(item.purchaseDate).getTime()),
-      ),
-    );
+    const lastTransaction = tableData.reduce((latest, item) => {
+      return new Date(item.purchaseDate) > new Date(latest.purchaseDate) ? item : latest;
+    });
+
+    const latestDate = new Date(lastTransaction.purchaseDate);
 
     const threeMonthsAgo = new Date(latestDate);
-    threeMonthsAgo.setMonth(latestDate.getMonth() - 3);
+    threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
 
     return tableData.filter((row) => {
       const purchaseDate = new Date(row.purchaseDate);
