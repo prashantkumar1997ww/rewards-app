@@ -44,16 +44,18 @@ function App() {
   }, []);
 
   // combine first and last name into customerName for easier display in tables
-  const tableData = transactionData.map((item) => ({
-    ...item,
-    customerName: `${item.firstname} ${item.lastname}`,
-  }));
+  const tableData = useMemo(() => {
+    return transactionData?.map((item) => ({
+      ...item,
+      customerName: `${item.firstname} ${item.lastname}`,
+    }));
+  }, [transactionData]);
 
   // filter the transactions to only include those from the last 3 months based on the latest transaction date
   const last3MonthsData = useMemo(() => {
-    if (!tableData.length) return [];
+    if (!tableData?.length) return [];
 
-    const lastTransaction = tableData.reduce((latest, item) => {
+    const lastTransaction = tableData?.reduce((latest, item) => {
       return new Date(item.purchaseDate) > new Date(latest.purchaseDate) ? item : latest;
     });
 
